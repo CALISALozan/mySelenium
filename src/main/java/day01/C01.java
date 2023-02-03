@@ -10,7 +10,7 @@ public class C01 {
       System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver_win32/chromedriver.exe");
         // windows olanlar sonunda .exe yazmali, mac'de buna gerek yok
         WebDriver driver=new ChromeDriver();
-        driver.get("https://www.youtube.com");
+        driver.get("https://www.amazon.com");
 
 
         /*
